@@ -1,0 +1,38 @@
+.button {
+  background-color: var(--button-background);
+  color: var(--text);
+  padding: 10px 18px;
+  font-size: 14px;
+  display: flex;
+  border-radius: 18px;
+  border: 1px solid var(--button-border);
+  user-select: none;
+  cursor: pointer;
+
+  transition: all 0.14s ease-in-out;
+
+  &:hover {
+    color: var(--text);
+    background-color: var(--button-background-hover);
+  }
+
+  &--secondary {
+    background-color: var(--text);
+    color: var(--background);
+
+    &:hover {
+      color: var(--background);
+      background-color: var(--button-secondary-hover);
+    }
+  }
+
+  &--accent {
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+    color: var(--button-accent-text);
+
+    &:hover {
+      border-color: var(--button-border);
+    }
+  }
+}

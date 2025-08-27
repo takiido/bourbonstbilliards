@@ -1,0 +1,15 @@
+[data-theme="dark"] {
+    --background: #102C33;
+    --text: #F1EFE8;
+    --accent: #004F54;
+    --warning: #FBA765;
+    --error-accent: #E6474A;
+    --error: #66023C;
+
+    --button-background: rgba(241, 239, 232, 0.1);
+    --button-border: rgba(241, 239, 232, 0.2);
+    --button-background-hover: rgba(241, 239, 232, 0.2);
+    --button-secondary-hover: rgba(241, 239, 232, 0.5);
+
+    --button-accent-text: var(--text);
+}
